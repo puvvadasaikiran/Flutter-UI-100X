@@ -74,9 +74,10 @@ class _HomePageState extends State<HomePage> {
             children: <Widget>[
               Provider.of<CardProvider>(context).getCardLenth() > 0
                   ? Consumer<CardProvider>(
-                      builder: (context, cards, child) =>
-                          CardList(cards.allCards),
-                    )
+                      builder: (context, cards, child) => Container(
+                            height: 210,
+                            child: CardList(cards.allCards),
+                          ))
 
                   // CardView(
                   //     model: CardModel(

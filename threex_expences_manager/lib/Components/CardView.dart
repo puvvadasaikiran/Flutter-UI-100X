@@ -13,6 +13,8 @@ class _CardViewState extends State<CardView> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      margin: EdgeInsets.only(right: 15),
+      //padding: EdgeInsets.only(right: 15),
       height: 220,
       child: AspectRatio(
         aspectRatio: 3.1 / 2,
