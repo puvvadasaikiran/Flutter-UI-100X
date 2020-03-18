@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fourx_restaurent/pages/HomePage.dart';
 import 'package:page_transition/page_transition.dart';
-import '../animation/FadedAnimation.dart';
+// import '../animation/FadedAnimation.dart';
 
 class StarterPage extends StatefulWidget {
   @override
