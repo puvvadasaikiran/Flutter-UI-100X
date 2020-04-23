@@ -20,7 +20,6 @@ class _CollapsingNavigationDrawerState extends State<CollapsingNavigationDrawer>
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _animationController =
         AnimationController(vsync: this, duration: Duration(milliseconds: 260));

@@ -36,8 +36,8 @@ class HomeScreen extends StatelessWidget {
         physics: BouncingScrollPhysics(),
         child: Column(
           children: <Widget>[
-            MyHeader(
-                "assets/icons/Drcorona.svg", "All you need", "is to Stay Home",true),
+            MyHeader("assets/icons/Drcorona.svg", "All you need",
+                "is to Stay Home", true),
             Container(
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               margin: EdgeInsets.symmetric(horizontal: 20),
@@ -148,7 +148,9 @@ class HomeScreen extends StatelessWidget {
                       )
                     ],
                   ),
-                  SizedBox(height: 10,),
+                  SizedBox(
+                    height: 10,
+                  ),
                   Container(
                     padding: EdgeInsets.only(top: 20),
                     height: 178,
