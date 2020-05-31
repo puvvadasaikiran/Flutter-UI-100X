@@ -4,8 +4,6 @@ import 'package:twentyonex_book/details_screen.dart';
 
 import 'ReadingListCard.dart';
 import 'bestoftheday.dart';
-import 'bookRating.dart';
-import 'twoSideRoundedButton.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
